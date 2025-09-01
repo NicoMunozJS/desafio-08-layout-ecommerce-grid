@@ -1,29 +1,24 @@
-README
-📌 Desafío 2 – Layout de E-commerce con Grid
-Este proyecto corresponde al Desafío 2 – Layout de E-commerce con Grid del bootcamp **Desafío Latam**.  
-El objetivo es aplicar los conocimientos de **CSS Grid** y **Flexbox** para construir un layout responsivo de una tienda online, replicando la maqueta de referencia entregada.
+🛒 E-commerce Layout - Desafío 2
+Este proyecto corresponde al Desafío 2 - Layout de E-commerce con Grid del bootcamp Desafío Latam, donde se aplican los conocimientos de CSS Grid y Flexbox para crear un layout responsivo de tienda online.
 
 🚀 Objetivo del desafío
-- Construir un layout completo de tienda online con **menú de navegación**, **barra lateral**, **grilla de productos** y **pie de página**.
-- Utilizar **CSS Grid** y la propiedad `grid-template-areas` para estructurar el layout principal.
-- Implementar una **grilla de productos responsiva** usando CSS Grid.
-- Aplicar **Flexbox** para la distribución de elementos en la barra lateral y en las tarjetas de productos.
-- Mantener un diseño limpio, ordenado y adaptable a distintos tamaños de pantalla.
+Crear el layout de una tienda online utilizando CSS Grid para la estructura principal y Flexbox para la barra lateral y las tarjetas de productos, replicando el diseño proporcionado en los requerimientos.
 
-🛠️ Requerimientos cumplidos
-- Se creó un **layout con CSS Grid**, utilizando `grid-template-areas` para la disposición de las secciones principales.
-- Se construyó una **grilla de productos** totalmente responsiva con CSS Grid.
-- La **barra lateral** está construida con Flexbox para organizar verticalmente las categorías y cantidades de productos.
-- Las **tarjetas de productos** utilizan Flexbox para alinear imagen, nombre, precio y botón de compra.
-- El diseño es **adaptable a diferentes dispositivos** y mantiene consistencia visual y funcional.
+✅ Requerimientos cumplidos
+Layout con Grid - Se utilizó CSS Grid con grid-template-areas para posicionar las secciones principales (menú, barra lateral, grilla de productos y pie de página)
+Grilla de productos - La sección de productos utiliza CSS Grid para mostrar los productos de manera responsiva
+Barra lateral con Flexbox - La barra lateral organiza categorías y cantidades usando Flexbox
+Tarjetas de productos con Flexbox - Cada tarjeta alinea imagen, nombre, precio y botón de compra con Flexbox
+Diseño responsivo - El layout se adapta a diferentes tamaños de pantalla manteniendo consistencia visual
 
-📂 Archivos principales
-index.html: Contiene la estructura HTML del e-commerce, con secciones de navegación, barra lateral, productos y pie de página.  
-style.css: Archivo CSS que integra CSS Grid y Flexbox para la maquetación y alineación de todos los elementos del layout.  
-README.md: Este archivo, que documenta el proyecto y sus detalles técnicos.
+🛠️ Tecnologías utilizadas
+HTML5 semántico
+CSS3 con Grid y Flexbox
+Diseño responsivo
+Git para control de versiones
 
-▶️ Ejecución
-Clonar este repositorio desde GitHub:
-
-```bash
-git clone https://github.com/imignaciotwentythree/desafio2-ecommerce-grid.git
+📂 Estructura del proyecto
+ecommerce-grid/ 
+├── style.css # Estilos CSS con Grid y Flexbox
+├── index.html # Página principal del e-commerce
+└── README.md # Este archivo
